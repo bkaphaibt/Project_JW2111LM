@@ -1,0 +1,40 @@
+Student, Customer, Employee, Book, Product...
+
+1. Tạo database cho ứng dụng
+2. Tạo dynamic web project
+3. Convert to maven project
+4. Add các thư viện:
+	- spring web mvc
+	- spring orm
+	- hibernate core
+	- hibernate entity manager
+	- jstl
+	- sqljdbc4-4.0.jar
+5. Cấu hình web.xml
+6. Cấu hình spring-config.xml
+	- Cấu hình hibernate:
+		+ dataSource
+		+ sessionFactory
+7. Tạo các entities máp với các bảng trong database
+8. Khai báo các hàm trong giao diện DAO
+9. Cài đặt các phương thức trong lớp thực thi DAO
+10. Tạo class Controller
+	- Cài đặt method getListProducts dưới dạng 1 url
+11. Tạo trang jsp
+
+	=> Run test load dữ liệu.
+
+
+CHỨC NĂNG INSERT
+1. Tạo liên kết gọi đến hàm initInsert trong controller
+2. Tạo hàm initInsert trong controller
+3. Tạo trang jsp và tạo form để insert
+4. Tạo hàm insert trong controller
+5. Khai báo và cài đặt hàm insert trong DAO
+6. Gọi hàm insert của DAO trong controller
+7. Điều hướng theo kết quả thực thi
+	- in thông báo lỗi nếu cần
+
+* NOTE_IMPORTANT: Nếu có kiểu Date thì cần cài đặt thêm hàm xử lý kiểu Date trong controller
+
+	=> Run test insert dữ liệu
